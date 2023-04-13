@@ -4,5 +4,5 @@
    "project_description": "something coll",
    "project_author_name": "your name",
    "project_packages": ["All", "Minimal"],
-   "python_vercion": "3.7"
+   "python_version": "3.7"
 }
