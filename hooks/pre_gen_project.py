@@ -1,5 +1,5 @@
 
-"""
+
 import os
 import sys 
 
@@ -23,4 +23,3 @@ if project_slug.startswith("x"):
 print(f"{MESSAGE_COLOR}Let's do it! You're are going to create something awesome!")
 print(f"Creating project at { os.getcwd() }{RESET_ALL}")   
 
-"""
