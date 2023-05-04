@@ -6,10 +6,10 @@ channels:
   - defaults
 dependencies:
   {% if cookiecutter.project_packages == "All" -%}
-  - fs
-  - jupyter
-  - jupyterlab
-  - pathlib
+  - numpy
+  - pandas
+  - matplotlib
+  - drive
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
