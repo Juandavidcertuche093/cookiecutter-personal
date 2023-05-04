@@ -9,7 +9,7 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
-  - drive
+  
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
@@ -19,4 +19,5 @@ dependencies:
   - pip:
     {% if cookiecutter.project_packages == "All" -%}
     - pyhere
+    - drive
     {% endif -%}
