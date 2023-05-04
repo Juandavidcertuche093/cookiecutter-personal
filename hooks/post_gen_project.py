@@ -1,3 +1,4 @@
+"""
 import os
 import subprocess
 
@@ -14,3 +15,4 @@ subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 
 print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
 
+"""
