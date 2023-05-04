@@ -18,4 +18,5 @@ dependencies:
   - pip:
     {% if cookiecutter.project_packages == "All" -%}
     - pyhere
+    - scikit-learn
     {% endif -%}
